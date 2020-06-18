@@ -52,8 +52,8 @@ let credentialsFile = process.argv[2];
     newtab=numberofPages[1];
 
     //adding phone number
-    await newtab.waitForSelector("input[autocomplete='tel-national']");
-    await newtab.type("input[autocomplete='tel-national']","9999955555");
+   // await newtab.waitForSelector("input[autocomplete='tel-national']");
+    //await newtab.type("input[autocomplete='tel-national']","9999955555");
 
 
 
